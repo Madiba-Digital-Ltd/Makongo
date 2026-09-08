@@ -1,0 +1,728 @@
+@import url('fonts/stylesheet.css');
+
+*:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.logo {
+  max-width: 90px;
+  transition: all .5s ease;
+}
+
+/* .scrolled .logo{
+    max-width: 60px;;
+} */
+.navbar {
+  background: #161616;
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #f1592a;
+}
+
+.socials {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.socials li {
+  display: inline-flex;
+  margin: 0 5px;
+}
+
+.socials li a {
+  background: #fff;
+  color: #161616;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 37px;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.socials li a:hover {
+  background: #f1592a;
+  color: #fff;
+}
+
+.hero {
+  background: #161616;
+  color: #fff;
+  position: relative;
+}
+
+.hero-book {
+  color: #fff;
+  position: relative;
+  background-image: linear-gradient(176deg, #161616 75%, #fff calc(70% + 2px));
+
+
+}
+
+.dr-name {
+  font-size: 44px;
+  font-family: 'D-DIN-BOLD';
+}
+
+.qualification {
+  font-size: 22px;
+  font-family: 'D-DIN';
+}
+
+body {
+  font-family: 'D-DIN';
+  font-family: 16px;
+  line-height: 22px;
+}
+
+.about {
+  background: #fff;
+
+}
+
+.about h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'D-DIN-BOLD';
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'D-DIN-BOLD';
+  margin-bottom: 30px;
+}
+
+.book {
+  background: url('../assets/book-background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.book-copy {
+  text-align: center;
+  font-family: 'D-DIN-BOLD';
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.podcast {
+  background: url('../assets/podcast-background.png') no-repeat center center;
+  background-size: cover;
+}
+
+.footer {
+  background: #161616;
+  color: #fff;
+}
+
+.footer-logo {
+  max-width: 60px;
+  ;
+}
+
+.footer .socials li a {
+  background: #f1592a;
+  color: #fff;
+}
+
+.footer .socials li a:hover {
+  background: #fff;
+  color: #161616;
+}
+
+.cta-btn {
+  padding: 15px 40px;
+  color: #fff;
+  font-size: 16px;
+  background: #f1592a;
+  text-decoration: none;
+  transform: all .4s ease;
+  border: 0;
+  outline: none;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background: #b93911;
+  color: #fff;
+
+}
+
+.image-box {
+  width: 100%;
+  padding-bottom: 100%;
+  content: '';
+  background-size: cover !important;
+}
+
+.image-box-lg {
+  width: 100%;
+  padding-bottom: 50%;
+  content: '';
+  background-size: 100% !important;
+}
+
+.dr-david-image {
+  max-width: 40%;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+
+.dr-david-intro {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media(max-width:600px) {
+  .jsScroll__scrolled {
+    overflow-x: visible !important;
+  }
+}
+
+.jsScroll__scrolled {
+  overflow-x: hidden !important;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
+
+.customModal .modal-body {
+  background: #000 !important;
+  display: block !important;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.customModal .modal-logo {
+  max-width: 80px;
+  display: block;
+  margin: 20px auto;
+}
+
+.customModal .modal-body .email {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.download-icon {
+  width: 20px;
+  height: 20px;
+  background: url('../assets/book/download.png') no-repeat center center;
+  background-size: 100%;
+  content: '';
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -2px;
+}
+
+.overview {
+  font-family: 'D-DIN-BOLD';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #f1592a;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.overview svg {
+  margin-right: 8px;
+  /* Optional: Adds space between the SVG and the text */
+}
+
+.spotify-button {
+  text-decoration: none;
+}
+
+.active-listeners {
+  margin-left: 30px;
+
+}
+
+
+/* Book Section */
+
+.book-overview {
+  font-family: 'D-DIN-BOLD';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #f1592a;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.book-title {
+  color: #272D3E;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  font-family: 'D-DIN-BOLD';
+}
+
+.book-desc {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(39, 45, 62, 0.8);
+  letter-spacing: 1px;
+}
+
+.book-text {
+  color: rgba(39, 45, 62, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  font-family: 'D-DIN-BOLD';
+}
+
+.book-btn {
+  padding: 25px 45px;
+  background-color: none;
+  color: rgba(241, 89, 42, 1);
+  border: 2px solid rgba(241, 89, 42, 1);
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'DIN Alternate Bold';
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.book-btn:hover {
+  background: rgba(241, 89, 42, 1);
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .book-buttons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .book-ending {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .book-btn + .book-btn {
+        margin-left: 30px;
+    }
+}
+
+/* Coming Soon Section */
+
+.coming-soon {
+  background: url('../assets/coming-soon-background.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.coming-soon-overview {
+  font-family: 'D-DIN-BOLD';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.coming-soon-title {
+  color: rgba(39, 45, 62, 1);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  font-family: 'D-DIN-BOLD';
+}
+
+.coming-soon-desc {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.85px;
+  text-align: left;
+  color: rgba(39, 45, 62, 0.8);
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.coming-soon-text {
+  color: rgba(39, 45, 62, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  font-family: 'D-DIN';
+}
+
+.coming-soon-book {
+    background: url('../assets/coming-soon-book.png') no-repeat center center;
+    height: 640px;
+}
+
+@media only screen and (min-width: 600px) {
+    .coming-soon-book-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .coming-soon-book {
+        height: 740px;
+    }
+}  
+
+@media (max-width: 1200px) {
+    .coming-soon-book {
+        height: 840px;
+    }
+}  
+
+@media only screen and (max-width: 800px) {
+    .coming-soon-book {
+        background: none;
+        height: auto; /* Use the correct height here */
+    }
+
+    .coming-soon-desc {
+        padding-top: 30px;
+    }
+    
+    .coming-soon-book-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+/* Articles Section */
+
+.articles-card {
+  text-decoration: none;
+}
+
+.articles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.articles-header h2{
+  font-family: 'D-DIN';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid rgba(229, 229, 229, 1);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.view-all {
+  font-family: 'DIN Alternate Bold', sans-serif;
+  font-size: 20px;
+  color: rgba(241, 89, 42, 1);
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.view-all:hover {
+  color: rgba(241, 89, 42, 1);
+  text-decoration: none;
+}
+
+.articles-date {
+  font-family: 'DIN Alternate Bold';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: rgba(108, 117, 125, 1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.articles-desc {
+  font-family: 'D-DIN-BOLD', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  height: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .articles-desc {
+        height: auto;
+    }
+}
+
+.articles-site {
+  font-family: 'D-DIN-BOLD', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 30px;
+  color: rgba(80, 80, 80, 1);
+}
+
+.articles-author {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(73, 80, 87, 1);
+  margin: 0px;
+}
+
+.articles-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* Podcast Section */
+
+.podcast-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54.6px;
+  text-align: left;
+  font-family: 'D-DIN-BOLD';
+}
+
+.podcast-desc {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1px;
+}
+
+.podcast-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.4px;
+  text-align: left;
+  font-family: 'D-DIN';
+}
+
+.podcast-scroll {
+  overflow: auto;
+  height: 20rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.podcast-scroll::-webkit-scrollbar {
+  width: 5px; /* Scrollbar width */
+}
+
+.podcast-scroll::-webkit-scrollbar-track {
+  background: none;
+}
+
+.podcast-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(132, 132, 132, 1);
+  border-radius: 4px; 
+  opacity: 1; 
+}
+
+
+
+.book-intro {
+  font-family: 'D-DIN-BOLD';
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+
+}
+
+.book-img {
+  -webkit-animation: float 3s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
+}
+
+.book-store {
+  max-height: 38px;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes float {
+  0% {
+
+    transform: translatey(0px);
+  }
+
+  50% {
+
+    transform: translatey(-20px);
+  }
+
+  100% {
+
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+
+    transform: translatey(0px);
+  }
+
+  50% {
+
+    transform: translatey(-20px);
+  }
+
+  100% {
+
+    transform: translatey(0px);
+  }
+}
+
+@media(max-width:475px) {
+  .book-intro {
+    font-family: 'D-DIN-BOLD';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+
+  }
+}
+
+.book-sub {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: #fff;
+
+}
+
+.buy-title {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 44px;
+
+}
+
+.buy-sub {
+  font-family: 'D-DIN', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+
+
+}
+
+.shop-list {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+
+  justify-content: center;
+  display: flex;
+}
+
+.shop-list li {
+  display: inline-flex;
+  margin: 10px 25px;
+  align-self: center;
+}
+
+.shop-list li a img {
+  width: 100%;
+}
+
+/* Long-form article (e.g. article-southern-cameroons.html) */
+.article-long-read {
+  background: #fff;
+  color: #161616;
+  padding-bottom: 4rem;
+}
+
+.article-long-read .article-prose {
+  max-width: 42rem;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.article-long-read .article-prose h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.35;
+}
+
+.article-long-read .article-prose h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-long-read .article-prose p {
+  margin-bottom: 1rem;
+}
+
+.article-long-read .article-signature {
+  margin-top: 2.5rem;
+  font-weight: 600;
+}
